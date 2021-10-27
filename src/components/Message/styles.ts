@@ -2,21 +2,24 @@ import { StyleSheet } from 'react-native';
 import { COLORS, FONTS } from '../../theme';
 
 export const styles = StyleSheet.create({
-  container: { 
+  container: {
     width: '100%',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    paddingHorizontal: 20,
-  },
-  logoutButton: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  logoutText: {
+    marginBottom: 36,  
+  }, 
+  message: {
     fontSize: 15,
     fontFamily: FONTS.REGULAR,
     color: COLORS.WHITE,
-    marginRight: 20
+  },  
+  footer: {
+    width: '100%',
+    flexDirection: 'row',
+    alignItems: 'center',
   },
-});
+  userName: {
+    fontSize: 15,
+    fontFamily: FONTS.REGULAR,
+    color: COLORS.WHITE,
+    marginLeft: 16,
+  },
+})

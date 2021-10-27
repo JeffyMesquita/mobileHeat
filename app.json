@@ -3,6 +3,7 @@
     "name": "mobileHeat",
     "slug": "mobileHeat",
     "version": "1.0.0",
+    "scheme": "mobileHeat",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
